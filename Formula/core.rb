@@ -1,6 +1,6 @@
 class Core < Formula
   version "0.0.0"
-  desc "Radicle CLI tools"
+  desc "Radicle Tools"
   homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-client-tools"
 
   url "https://github.com/radicle-dev/radicle-client-tools/releases/download/v#{version}/radicle-tools-x86_64-apple-darwin.tar.gz"
