@@ -1,4 +1,4 @@
-class RadicleTools < Formula
+class Core < Formula
   version "0.0.0"
   desc "Radicle CLI tools"
   homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-client-tools"
