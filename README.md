@@ -1,1 +1,4 @@
-See https://github.com/radicle-dev/radicle-client-tools#from-homebrew-on-macos for how to use this Homebrew tap.
+```
+brew tap radicle/cli https://seed.alt-clients.radicle.xyz/radicle-cli-homebrew.git
+brew install radicle/cli/core
+```
