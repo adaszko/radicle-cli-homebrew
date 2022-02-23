@@ -1,9 +1,9 @@
 class Core < Formula
   version "0.0.0"
-  desc "Radicle Tools"
-  homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-client-tools"
+  desc "Radicle CLI"
+  homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-cli"
 
-  url "https://github.com/radicle-dev/radicle-client-tools/releases/download/v#{version}/radicle-tools-x86_64-apple-darwin.tar.gz"
+  url "https://github.com/radicle-dev/radicle-cli/releases/download/v#{version}/radicle-cli-x86_64-apple-darwin.tar.gz"
   sha256 "30dc8a5627f41b0ab4b71fb7260b01167cba1c0f25dd875829ee0ebdc83dc7dd"
 
 
@@ -22,7 +22,7 @@ class Core < Formula
     bin.install "rad-checkout"
     bin.install "rad-untrack"
     bin.install "git-remote-rad"
-    man1.install "radicle-tools.1.gz"
+    man1.install "rad.1.gz"
   end
 
   test do
