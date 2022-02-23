@@ -8,13 +8,12 @@ class Core < Formula
 
 
   def install
-    bin.install "rad-inspect"
+    bin.install "rad-show"
     bin.install "rad-account"
     bin.install "rad-sync"
     bin.install "rad-help"
     bin.install "rad-ens"
     bin.install "rad-push"
-    bin.install "rad-pull"
     bin.install "rad"
     bin.install "rad-auth"
     bin.install "rad-track"
