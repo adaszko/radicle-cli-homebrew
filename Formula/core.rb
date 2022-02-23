@@ -8,7 +8,6 @@ class Core < Formula
 
 
   def install
-    bin.install "rad-self"
     bin.install "rad-inspect"
     bin.install "rad-account"
     bin.install "rad-sync"
