@@ -4,7 +4,7 @@ class Core < Formula
   homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-cli"
 
   url "https://github.com/radicle-dev/radicle-cli/releases/download/v#{version}/radicle-cli-x86_64-apple-darwin.tar.gz"
-  sha256 "4727714cae3571e4fb07be1fb03e4144ddceab74e729a48928c64e6502a9d998"
+  sha256 "fa40ad31875fc1071c02da83bd5d61c633b7c0e818989fd1ee85159b1cf3f154"
 
   def install
     bin.install "rad-self"
