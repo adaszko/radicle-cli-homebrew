@@ -6,6 +6,10 @@ class Core < Formula
   url "https://github.com/radicle-dev/radicle-cli/releases/download/v#{version}/radicle-cli-x86_64-apple-darwin.tar.gz"
   sha256 "fa40ad31875fc1071c02da83bd5d61c633b7c0e818989fd1ee85159b1cf3f154"
 
+  depends_on "libusb"
+  depends_on "openssl@1.1"
+  depends_on "git"
+
   def install
     bin.install "rad-self"
     bin.install "rad-account"
