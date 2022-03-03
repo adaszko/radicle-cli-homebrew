@@ -1,10 +1,10 @@
 class Core < Formula
-  version "0.3.0"
+  version "0.3.1"
   desc "Radicle CLI"
   homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-cli"
 
   url "https://github.com/radicle-dev/radicle-cli/releases/download/v#{version}/radicle-cli-x86_64-apple-darwin.tar.gz"
-  sha256 "933b2475942140a485885bc9528739aa6e0f263351ea07bd20daa97adfd7b9c4"
+  sha256 "2ea1917dd90f085efe1597772a7c340bc82d4124691106d38cd381f709d6daf6"
 
   depends_on "libusb"
   depends_on "openssl@1.1"
