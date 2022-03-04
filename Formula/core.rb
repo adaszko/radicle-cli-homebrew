@@ -20,6 +20,7 @@ class Core < Formula
     bin.install "rad-pull"
     bin.install "rad-clone"
     bin.install "rad-inspect"
+    bin.install "rad-remote"
     bin.install "rad"
     bin.install "rad-auth"
     bin.install "rad-ls"
