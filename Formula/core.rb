@@ -1,10 +1,10 @@
 class Core < Formula
-  version "0.4.0"
+  version "0.5.0"
   desc "Radicle CLI"
   homepage "https://app.radicle.network/alt-clients.radicle.eth/radicle-cli"
 
   url "https://github.com/radicle-dev/radicle-cli/releases/download/v#{version}/radicle-cli-x86_64-apple-darwin.tar.gz"
-  sha256 "10ea0d117093a8709cdf8ec81bcfc772f96d0017867c28ae0418c58ae336d13f"
+  sha256 "908d08df569668481bbd7dc3a2ae2b47972844984cac46e8dc9f8d69b42e0299"
 
   depends_on "libusb"
   depends_on "openssl@1.1"
@@ -16,6 +16,7 @@ class Core < Formula
     bin.install "rad-sync"
     bin.install "rad-help"
     bin.install "rad-ens"
+    bin.install "rad-gov"
     bin.install "rad-push"
     bin.install "rad-pull"
     bin.install "rad-clone"
